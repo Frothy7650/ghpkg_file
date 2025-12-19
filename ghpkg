@@ -3,10 +3,10 @@
   "description": "Simple package manager",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/Frothy7650/ghpkg.git",
-  "build": "cd $temp && make self",
-  "post": "",
+  "build": "cd $temp/src && ",
+  "post": "src/",
   "binary_name": "ghpkg",
-  "binary_dir": "",
-  "dependencies": ["make", "git"],
+  "binary_dir": "src/",
+  "dependencies": ["git", "gcc", "v"],
   "os": ["linux", "macos", "windows"]
 }
